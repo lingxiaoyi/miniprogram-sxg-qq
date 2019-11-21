@@ -1,0 +1,55 @@
+page {
+  background: #f2f2f2;
+}
+.novice {
+  padding: 0 24px;
+  margin: 24px 0 48px;
+  .sec1 {
+    background: #fff;
+    text-align: center;
+    padding: 50px 0;
+    .h3 {
+      font-size: 34px;
+      color: #333333;
+      letter-spacing: 0;
+      line-height: 34px;
+      font-weight: 600;
+    }
+    .h4 {
+      font-size: 30px;
+      color: #666666;
+      letter-spacing: 0;
+      line-height: 34px;
+      margin-top: 34px;
+    }
+    .input {
+      width: 550px;
+      height: 96px;
+      background: #f6f6f6;
+      border-radius: 12px;
+      font-size: 30px;
+      color: #999999;
+      margin: 43px auto 0;
+    }
+    .btn-confirm {
+      width: 550px;
+      height: 85px;
+      margin: 50px auto 0;
+      background-image: linear-gradient(90deg, #ffe465 0%, #ffc72d 100%);
+      border-radius: 42.5px;
+      font-size: 30px;
+      color: #222222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+    }
+  }
+  .sec2 {
+    width: 100%;
+    margin-top: 24px;
+    .img {
+      width: 100%;
+    }
+  }
+}
